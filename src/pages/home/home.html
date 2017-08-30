@@ -1,0 +1,72 @@
+<ion-header>
+  <!--<ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>AULAS</ion-title>
+  </ion-navbar>-->  
+
+</ion-header>
+
+<ion-content padding>
+  <div class="row">
+    <div class="col s12">
+        <h1 class="title center-align blue-text">Aulas</h1>
+    </div>
+  </div>
+  
+  
+
+  <div class="row">
+    <form [formGroup]="loginForm" (ngSubmit)="login($event)" class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="email" 
+                 id="username"
+                 type="text" 
+                 class="validate"
+                 required 
+                 formControlName="email">
+          <label for="Username"></label>
+        </div>
+      </div>  
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password"
+                 placeholder="password"  
+                 type="password" 
+                 class="validate" 
+                 formControlName="password">
+          <label for="password"></label>
+        </div>
+      </div>
+      <div class="col s12 center-align">
+        <button type="submit" class="center-align waves-eff ect waves-light btn">Iniciar Sesion</button>
+      </div>
+    </form>
+  </div>
+        
+  <div class="row">
+    <div class="col s12">
+        <p class="">Bienvenido a la app de Aulas. <br>
+                    Por favor utiliza
+                    tu usuario y contraseña que te ha brindado la institucion.
+        </p>
+    </div>
+      
+  </div>
+  
+  <!--<p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p>-->
+
+  <!--<button ion-button secondary menuToggle>Toggle Menu</button>-->
+
+
+
+
+
+
+
+
+</ion-content>

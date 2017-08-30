@@ -1,0 +1,69 @@
+page-notifications {
+  .scroll-content {
+    //background-color:#546e7a ;
+    background: #16222a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #16222a, #3a6073); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  
+      
+  }
+    
+
+    
+h1 {
+        font-size: 35px;
+        color:white;
+        //padding-top: 30px;
+        
+        
+        padding: 10px;
+        
+        
+        
+        
+        
+        font-weight: 200;      ;
+    }
+
+    p {
+        color:white;
+        font-size: 16px;
+        margin-top:5px;
+        margin-bottom: 5px;
+    
+    }
+    p.title {
+        margin-bottom: 0;
+    }
+    p.message {
+        margin-top: 0;
+        font-size: 13px;
+    }
+    input{
+        margin-bottom: 0 !important;
+    }
+
+    .material-icons {
+        padding-top: 5px;
+        font-size: 30px;
+        color:white;
+    }
+    .col.s10 {
+        border-bottom: 1px solid;
+        border-color:white;
+        margin-bottom: 5px;
+        padding-left: 0px;
+    }
+    a{
+        color:black;
+    }
+    .row{
+        margin-bottom: 10px;
+        
+    }
+    .row .col.s2{
+        padding-left:2px; 
+    }   
+}

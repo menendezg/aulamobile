@@ -1,0 +1,29 @@
+page-notificationsDetails {
+    h1 {
+            font-size: 35px;
+            padding-top: 30px;
+        }
+    
+        p {
+            font-size: 15px;
+            margin-top:5px;
+            margin-bottom: 5px;
+    
+        }
+        input{
+            margin-bottom: 0 !important;
+        }
+    
+        .material-icons {
+            padding-top: 20px;
+            font-size: 40px;
+        }
+        .col.s12 {
+            border-bottom: 1px solid;
+            border-color:#90caf9;
+            margin-bottom: 5px;
+        }
+        a{
+            color:black;
+        }
+    }
